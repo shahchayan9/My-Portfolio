@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer>
-    <p>&copy; 2023 My Portfolio</p>
+    <p>&copy; 2024 My Portfolio</p>
   </footer>
 );
 
