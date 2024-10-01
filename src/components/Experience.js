@@ -21,7 +21,7 @@ const Experience = () => (
           <div className="card h-100">
             <div className="card-body">
               <h3 className="card-title">Associate Software Engineer | Cogoport</h3>
-              <p className="card-text">July 2022 – Aug. 2023</p>
+              <p className="card-text">July 2022 – Dec. 2023</p>
               <ul>
                 <li>Developed from scratch an in-house data aggregation and visualization application suite, leading to a 30% improvement in data insights and usability for over 500 employees.</li>
                 <li>Implemented API encryption using OAuth 2.0 and designed a secure user token system for backend, overseeing entire development process from initial setup to deployment.</li>
