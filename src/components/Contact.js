@@ -2,7 +2,6 @@ import React from 'react';
 
 const Contact = () => (
   <section id="contact">
-    <h2>Contact</h2>
     <p>Feel free to reach out to me!</p>
     <p>Phone: (669) 340-6795</p>
     <p>Email: <a href="mailto:shahchayan9@gmail.com">shahchayan9@gmail.com</a></p>

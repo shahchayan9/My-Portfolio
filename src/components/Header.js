@@ -6,6 +6,8 @@ const Header = () => (
     <h1>Chayan Shah's Portfolio</h1>
     <nav>
       <Link to="/about">About</Link>
+      <Link to="/education">Education</Link>
+      <Link to="/experience">Experience</Link>
       <Link to="/projects">Projects</Link>
       <Link to="/contact">Contact</Link>
     </nav>

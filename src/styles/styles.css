@@ -45,7 +45,7 @@ section {
   margin: 1em auto;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
+  max-width: 1200px;
   animation: fadeInUp 1s ease-in-out;
 }
 
@@ -68,11 +68,11 @@ p {
   animation: fadeIn 2s ease-in-out;
 }
 
-/* Flexbox Layout for Projects */
-#projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* Projects Section Styling */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5em;
 }
 
 .project-item {
@@ -80,9 +80,6 @@ p {
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 1em;
-  margin: 1em 0;
-  width: 100%;
-  max-width: 600px;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: fadeInUp 1s ease-in-out;
@@ -93,30 +90,37 @@ p {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* About Section Styling */
-#about {
-  background: linear-gradient(to right, #f9f9f9, #ffffff);
-  padding: 2em;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  animation: fadeInUp 1s ease-in-out;
+.project-item h3 {
+  color: #555;
+  margin-top: 1.5em;
+  font-family: 'Georgia', serif;
+  animation: fadeIn 2s ease-in-out;
 }
 
-#about p {
-  margin: 0.5em 0;
+.project-item p {
+  line-height: 1.6;
+  animation: fadeIn 2s ease-in-out;
 }
 
-/* Contact Section Styling */
-#contact {
-  background: linear-gradient(to right, #ffffff, #f9f9f9);
-  padding: 2em;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  animation: fadeInUp 1s ease-in-out;
+.project-item ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  animation: fadeIn 2s ease-in-out;
 }
 
-#contact p {
-  margin: 0.5em 0;
+.project-item ul li {
+  margin-bottom: 0.5em;
+}
+
+.project-item a {
+  color: #ff7e5f;
+  text-decoration: none;
+  font-weight: bold;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
 }
 
 /* Keyframes for Animations */
@@ -163,21 +167,6 @@ p {
   }
 }
 
-/* Advanced Selectors */
-.project-item:nth-child(odd) {
-  background: linear-gradient(to right, #f0f0f0, #ffffff);
-}
-
-.project-item:nth-child(even) {
-  background: linear-gradient(to right, #ffffff, #f0f0f0);
-}
-
-.project-item::before {
-  content: "★";
-  color: #ff7e5f;
-  margin-right: 10px;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   nav a {
@@ -211,4 +200,47 @@ p {
   .project-item {
     padding: 0.5em;
   }
+}
+/* Education Section Styling */
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5em;
+}
+
+.education-item {
+  background: linear-gradient(to right, #ffffff, #f9f9f9);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1em;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.education-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+  color: #555;
+  margin-top: 1.5em;
+  font-family: 'Georgia', serif;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.education-item p {
+  line-height: 1.6;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.education-item ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.education-item ul li {
+  margin-bottom: 0.5em;
 }
