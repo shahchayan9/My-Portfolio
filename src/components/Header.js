@@ -44,6 +44,13 @@ const Header = () => {
             Projects
           </Link>
           <Link
+            className={`nav-link text-white ${activeLink === '/achievements' ? 'active' : ''}`}
+            to="/achievements"
+            onClick={() => handleLinkClick('/achievements')}
+          >
+            Achievements
+          </Link>
+          <Link
             className={`nav-link text-white ${activeLink === '/contact' ? 'active' : ''}`}
             to="/contact"
             onClick={() => handleLinkClick('/contact')}
