@@ -317,3 +317,8 @@ p {
     padding: 0.5em;
   }
 }
+.nav-link.active {
+  background-color: #555;
+  color: #fff;
+  border-radius: 5px;
+}
