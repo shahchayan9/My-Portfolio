@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Achievements = () => (
   <section id="achievements" className="bg-light p-5">
     <div className="container">
-      <h2 className="mb-4 text-center">Achievements</h2>
       <div className="row">
         <div className="col-md-6 mb-4">
           <div className="card h-100">

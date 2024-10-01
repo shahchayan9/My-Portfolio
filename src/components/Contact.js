@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Contact = () => (
   <section id="contact" className="bg-light p-5">
     <div className="container">
-      <h2 className="mb-4">Contact Me</h2>
       <p className="lead">Feel free to reach out to me!</p>
       <ul className="list-unstyled">
         <li className="mb-2"><strong>Phone:</strong> (669) 340-6795</li>
