@@ -322,3 +322,29 @@ p {
   color: #fff;
   border-radius: 5px;
 }
+.custom-card {
+  background-color: #f8f9fa; /* Light gray background */
+  border: 1px solid #dee2e6; /* Light border */
+  border-radius: 0.25rem; /* Rounded corners */
+}
+
+.custom-card .card-body {
+  color: #343a40; /* Dark text color */
+}
+
+.custom-card .card-title {
+  color: #007bff; /* Primary color for titles */
+}
+
+.custom-btn {
+  background-color: #007bff; /* Primary button color */
+  border-color: #007bff;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  border-color: #0056b3;
+}
+.custom-heading {
+  color: #007bff; /* Primary color for headings */
+}
